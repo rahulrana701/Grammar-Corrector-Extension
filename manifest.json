@@ -1,0 +1,23 @@
+{
+    "name": "English Grammer Corrector",
+    "description": "An extension with which you can get the correct grammar of the sentence you write ",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "/images/schedule.png",
+        "32": "/images/schedule_32.png",
+        "64": "/images/schedule_64.png"
+    }
+}
+
